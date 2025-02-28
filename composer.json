@@ -10,6 +10,13 @@
             "email": "ashokdev78@gmail.com"
         }
     ],
+     "extra": {
+        "laravel": {
+            "providers": [
+                "AshokDevatwal\\EnvManager\\EnvManagerServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.4",
