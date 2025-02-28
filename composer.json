@@ -1,0 +1,25 @@
+{
+    "name": "ashokdevatwal/laravel-env-manager",
+    "description": "Manage .env file from GUI with authentication",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": ["laravel", "env", "env-manager", "env-editor", "env-gui"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ashok Devatwal",
+            "email": "ashokdev78@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": "^8.0|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AshokDevatwal\\EnvManager\\": "src/"
+        }
+    }
+}
+
